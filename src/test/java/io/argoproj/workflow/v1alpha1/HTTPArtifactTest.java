@@ -27,33 +27,25 @@ import org.junit.Test;
 
 
 /**
- * Model tests for IoArgoprojWorkflowV1alpha1ArchiveStrategy
+ * Model tests for IoArgoprojWorkflowV1alpha1HTTPArtifact
  */
-public class IoArgoprojWorkflowV1alpha1ArchiveStrategyTest {
-    private final ArchiveStrategy model = new ArchiveStrategy();
+public class HTTPArtifactTest {
+    private final HTTPArtifact model = new HTTPArtifact();
 
     /**
-     * Model tests for IoArgoprojWorkflowV1alpha1ArchiveStrategy
+     * Model tests for IoArgoprojWorkflowV1alpha1HTTPArtifact
      */
     @Test
-    public void testIoArgoprojWorkflowV1alpha1ArchiveStrategy() {
-        // TODO: test IoArgoprojWorkflowV1alpha1ArchiveStrategy
+    public void testIoArgoprojWorkflowV1alpha1HTTPArtifact() {
+        // TODO: test IoArgoprojWorkflowV1alpha1HTTPArtifact
     }
 
     /**
-     * Test the property 'none'
+     * Test the property 'url'
      */
     @Test
-    public void noneTest() {
-        // TODO: test none
-    }
-
-    /**
-     * Test the property 'tar'
-     */
-    @Test
-    public void tarTest() {
-        // TODO: test tar
+    public void urlTest() {
+        // TODO: test url
     }
 
 }

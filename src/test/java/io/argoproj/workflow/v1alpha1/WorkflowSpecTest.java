@@ -20,11 +20,6 @@ import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
 import io.argoproj.workflow.v1alpha1.Arguments;
 import io.argoproj.workflow.v1alpha1.Template;
-import io.argoproj.workflow.v1alpha1.IoK8sApiCoreV1Affinity;
-import io.argoproj.workflow.v1alpha1.IoK8sApiCoreV1LocalObjectReference;
-import io.argoproj.workflow.v1alpha1.IoK8sApiCoreV1PersistentVolumeClaim;
-import io.argoproj.workflow.v1alpha1.IoK8sApiCoreV1Toleration;
-import io.argoproj.workflow.v1alpha1.IoK8sApiCoreV1Volume;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import java.io.IOException;
@@ -40,7 +35,7 @@ import org.junit.Test;
 /**
  * Model tests for IoArgoprojWorkflowV1alpha1WorkflowSpec
  */
-public class IoArgoprojWorkflowV1alpha1WorkflowSpecTest {
+public class WorkflowSpecTest {
     private final WorkflowSpec model = new WorkflowSpec();
 
     /**

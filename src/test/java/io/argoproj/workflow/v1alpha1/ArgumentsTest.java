@@ -18,58 +18,46 @@ import com.google.gson.annotations.JsonAdapter;
 import com.google.gson.annotations.SerializedName;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
+import io.argoproj.workflow.v1alpha1.Artifact;
+import io.argoproj.workflow.v1alpha1.Parameter;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 
 
 /**
- * Model tests for IoArgoprojWorkflowV1alpha1Sequence
+ * Model tests for IoArgoprojWorkflowV1alpha1Arguments
  */
-public class IoArgoprojWorkflowV1alpha1SequenceTest {
-    private final Sequence model = new Sequence();
+public class ArgumentsTest {
+    private final Arguments model = new Arguments();
 
     /**
-     * Model tests for IoArgoprojWorkflowV1alpha1Sequence
+     * Model tests for IoArgoprojWorkflowV1alpha1Arguments
      */
     @Test
-    public void testIoArgoprojWorkflowV1alpha1Sequence() {
-        // TODO: test IoArgoprojWorkflowV1alpha1Sequence
+    public void testIoArgoprojWorkflowV1alpha1Arguments() {
+        // TODO: test IoArgoprojWorkflowV1alpha1Arguments
     }
 
     /**
-     * Test the property 'count'
+     * Test the property 'artifacts'
      */
     @Test
-    public void countTest() {
-        // TODO: test count
+    public void artifactsTest() {
+        // TODO: test artifacts
     }
 
     /**
-     * Test the property 'end'
+     * Test the property 'parameters'
      */
     @Test
-    public void endTest() {
-        // TODO: test end
-    }
-
-    /**
-     * Test the property 'format'
-     */
-    @Test
-    public void formatTest() {
-        // TODO: test format
-    }
-
-    /**
-     * Test the property 'start'
-     */
-    @Test
-    public void startTest() {
-        // TODO: test start
+    public void parametersTest() {
+        // TODO: test parameters
     }
 
 }

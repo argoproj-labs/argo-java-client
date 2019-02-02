@@ -31,17 +31,17 @@ import org.junit.Test;
 
 
 /**
- * Model tests for IoArgoprojWorkflowV1alpha1Arguments
+ * Model tests for IoArgoprojWorkflowV1alpha1Outputs
  */
-public class IoArgoprojWorkflowV1alpha1ArgumentsTest {
-    private final Arguments model = new Arguments();
+public class OutputsTest {
+    private final Outputs model = new Outputs();
 
     /**
-     * Model tests for IoArgoprojWorkflowV1alpha1Arguments
+     * Model tests for IoArgoprojWorkflowV1alpha1Outputs
      */
     @Test
-    public void testIoArgoprojWorkflowV1alpha1Arguments() {
-        // TODO: test IoArgoprojWorkflowV1alpha1Arguments
+    public void testIoArgoprojWorkflowV1alpha1Outputs() {
+        // TODO: test IoArgoprojWorkflowV1alpha1Outputs
     }
 
     /**
@@ -58,6 +58,14 @@ public class IoArgoprojWorkflowV1alpha1ArgumentsTest {
     @Test
     public void parametersTest() {
         // TODO: test parameters
+    }
+
+    /**
+     * Test the property 'result'
+     */
+    @Test
+    public void resultTest() {
+        // TODO: test result
     }
 
 }

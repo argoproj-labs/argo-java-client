@@ -18,7 +18,6 @@ import com.google.gson.annotations.JsonAdapter;
 import com.google.gson.annotations.SerializedName;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
-import io.argoproj.workflow.v1alpha1.IoK8sApiCoreV1SecretKeySelector;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import java.io.IOException;
@@ -28,33 +27,49 @@ import org.junit.Test;
 
 
 /**
- * Model tests for IoArgoprojWorkflowV1alpha1ArtifactoryAuth
+ * Model tests for IoArgoprojWorkflowV1alpha1ResourceTemplate
  */
-public class IoArgoprojWorkflowV1alpha1ArtifactoryAuthTest {
-    private final ArtifactoryAuth model = new ArtifactoryAuth();
+public class ResourceTemplateTest {
+    private final ResourceTemplate model = new ResourceTemplate();
 
     /**
-     * Model tests for IoArgoprojWorkflowV1alpha1ArtifactoryAuth
+     * Model tests for IoArgoprojWorkflowV1alpha1ResourceTemplate
      */
     @Test
-    public void testIoArgoprojWorkflowV1alpha1ArtifactoryAuth() {
-        // TODO: test IoArgoprojWorkflowV1alpha1ArtifactoryAuth
+    public void testIoArgoprojWorkflowV1alpha1ResourceTemplate() {
+        // TODO: test IoArgoprojWorkflowV1alpha1ResourceTemplate
     }
 
     /**
-     * Test the property 'passwordSecret'
+     * Test the property 'action'
      */
     @Test
-    public void passwordSecretTest() {
-        // TODO: test passwordSecret
+    public void actionTest() {
+        // TODO: test action
     }
 
     /**
-     * Test the property 'usernameSecret'
+     * Test the property 'failureCondition'
      */
     @Test
-    public void usernameSecretTest() {
-        // TODO: test usernameSecret
+    public void failureConditionTest() {
+        // TODO: test failureCondition
+    }
+
+    /**
+     * Test the property 'manifest'
+     */
+    @Test
+    public void manifestTest() {
+        // TODO: test manifest
+    }
+
+    /**
+     * Test the property 'successCondition'
+     */
+    @Test
+    public void successConditionTest() {
+        // TODO: test successCondition
     }
 
 }

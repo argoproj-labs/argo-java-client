@@ -18,45 +18,58 @@ import com.google.gson.annotations.JsonAdapter;
 import com.google.gson.annotations.SerializedName;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
-import io.argoproj.workflow.v1alpha1.DAGTask;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 
 
 /**
- * Model tests for IoArgoprojWorkflowV1alpha1DAGTemplate
+ * Model tests for IoArgoprojWorkflowV1alpha1ValueFrom
  */
-public class IoArgoprojWorkflowV1alpha1DAGTemplateTest {
-    private final DAGTemplate model = new DAGTemplate();
+public class ValueFromTest {
+    private final ValueFrom model = new ValueFrom();
 
     /**
-     * Model tests for IoArgoprojWorkflowV1alpha1DAGTemplate
+     * Model tests for IoArgoprojWorkflowV1alpha1ValueFrom
      */
     @Test
-    public void testIoArgoprojWorkflowV1alpha1DAGTemplate() {
-        // TODO: test IoArgoprojWorkflowV1alpha1DAGTemplate
+    public void testIoArgoprojWorkflowV1alpha1ValueFrom() {
+        // TODO: test IoArgoprojWorkflowV1alpha1ValueFrom
     }
 
     /**
-     * Test the property 'target'
+     * Test the property 'jqFilter'
      */
     @Test
-    public void targetTest() {
-        // TODO: test target
+    public void jqFilterTest() {
+        // TODO: test jqFilter
     }
 
     /**
-     * Test the property 'tasks'
+     * Test the property 'jsonPath'
      */
     @Test
-    public void tasksTest() {
-        // TODO: test tasks
+    public void jsonPathTest() {
+        // TODO: test jsonPath
+    }
+
+    /**
+     * Test the property 'parameter'
+     */
+    @Test
+    public void parameterTest() {
+        // TODO: test parameter
+    }
+
+    /**
+     * Test the property 'path'
+     */
+    @Test
+    public void pathTest() {
+        // TODO: test path
     }
 
 }

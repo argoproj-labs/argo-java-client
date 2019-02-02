@@ -18,62 +18,58 @@ import com.google.gson.annotations.JsonAdapter;
 import com.google.gson.annotations.SerializedName;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
-import io.argoproj.workflow.v1alpha1.Workflow;
-import io.argoproj.workflow.v1alpha1.IoK8sApimachineryPkgApisMetaV1ListMeta;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 
 
 /**
- * Model tests for IoArgoprojWorkflowV1alpha1WorkflowList
+ * Model tests for IoArgoprojWorkflowV1alpha1Sequence
  */
-public class IoArgoprojWorkflowV1alpha1WorkflowListTest {
-    private final WorkflowList model = new WorkflowList();
+public class SequenceTest {
+    private final Sequence model = new Sequence();
 
     /**
-     * Model tests for IoArgoprojWorkflowV1alpha1WorkflowList
+     * Model tests for IoArgoprojWorkflowV1alpha1Sequence
      */
     @Test
-    public void testIoArgoprojWorkflowV1alpha1WorkflowList() {
-        // TODO: test IoArgoprojWorkflowV1alpha1WorkflowList
+    public void testIoArgoprojWorkflowV1alpha1Sequence() {
+        // TODO: test IoArgoprojWorkflowV1alpha1Sequence
     }
 
     /**
-     * Test the property 'apiVersion'
+     * Test the property 'count'
      */
     @Test
-    public void apiVersionTest() {
-        // TODO: test apiVersion
+    public void countTest() {
+        // TODO: test count
     }
 
     /**
-     * Test the property 'items'
+     * Test the property 'end'
      */
     @Test
-    public void itemsTest() {
-        // TODO: test items
+    public void endTest() {
+        // TODO: test end
     }
 
     /**
-     * Test the property 'kind'
+     * Test the property 'format'
      */
     @Test
-    public void kindTest() {
-        // TODO: test kind
+    public void formatTest() {
+        // TODO: test format
     }
 
     /**
-     * Test the property 'metadata'
+     * Test the property 'start'
      */
     @Test
-    public void metadataTest() {
-        // TODO: test metadata
+    public void startTest() {
+        // TODO: test start
     }
 
 }

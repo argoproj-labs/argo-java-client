@@ -18,7 +18,6 @@ import com.google.gson.annotations.JsonAdapter;
 import com.google.gson.annotations.SerializedName;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
-import io.argoproj.workflow.v1alpha1.IoK8sApiCoreV1SecretKeySelector;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import java.io.IOException;
@@ -30,7 +29,7 @@ import org.junit.Test;
 /**
  * Model tests for IoArgoprojWorkflowV1alpha1S3Bucket
  */
-public class IoArgoprojWorkflowV1alpha1S3BucketTest {
+public class S3BucketTest {
     private final S3Bucket model = new S3Bucket();
 
     /**

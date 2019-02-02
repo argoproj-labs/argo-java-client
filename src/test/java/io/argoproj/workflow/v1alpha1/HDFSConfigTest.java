@@ -18,8 +18,6 @@ import com.google.gson.annotations.JsonAdapter;
 import com.google.gson.annotations.SerializedName;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
-import io.argoproj.workflow.v1alpha1.IoK8sApiCoreV1ConfigMapKeySelector;
-import io.argoproj.workflow.v1alpha1.IoK8sApiCoreV1SecretKeySelector;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import java.io.IOException;
@@ -31,17 +29,17 @@ import org.junit.Test;
 
 
 /**
- * Model tests for IoArgoprojWorkflowV1alpha1HDFSArtifact
+ * Model tests for IoArgoprojWorkflowV1alpha1HDFSConfig
  */
-public class IoArgoprojWorkflowV1alpha1HDFSArtifactTest {
-    private final HDFSArtifact model = new HDFSArtifact();
+public class HDFSConfigTest {
+    private final HDFSConfig model = new HDFSConfig();
 
     /**
-     * Model tests for IoArgoprojWorkflowV1alpha1HDFSArtifact
+     * Model tests for IoArgoprojWorkflowV1alpha1HDFSConfig
      */
     @Test
-    public void testIoArgoprojWorkflowV1alpha1HDFSArtifact() {
-        // TODO: test IoArgoprojWorkflowV1alpha1HDFSArtifact
+    public void testIoArgoprojWorkflowV1alpha1HDFSConfig() {
+        // TODO: test IoArgoprojWorkflowV1alpha1HDFSConfig
     }
 
     /**
@@ -50,14 +48,6 @@ public class IoArgoprojWorkflowV1alpha1HDFSArtifactTest {
     @Test
     public void addressesTest() {
         // TODO: test addresses
-    }
-
-    /**
-     * Test the property 'force'
-     */
-    @Test
-    public void forceTest() {
-        // TODO: test force
     }
 
     /**
@@ -114,14 +104,6 @@ public class IoArgoprojWorkflowV1alpha1HDFSArtifactTest {
     @Test
     public void krbUsernameTest() {
         // TODO: test krbUsername
-    }
-
-    /**
-     * Test the property 'path'
-     */
-    @Test
-    public void pathTest() {
-        // TODO: test path
     }
 
 }

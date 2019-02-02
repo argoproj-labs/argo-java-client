@@ -27,25 +27,33 @@ import org.junit.Test;
 
 
 /**
- * Model tests for IoArgoprojWorkflowV1alpha1HTTPArtifact
+ * Model tests for IoArgoprojWorkflowV1alpha1ArtifactoryAuth
  */
-public class IoArgoprojWorkflowV1alpha1HTTPArtifactTest {
-    private final HTTPArtifact model = new HTTPArtifact();
+public class ArtifactoryAuthTest {
+    private final ArtifactoryAuth model = new ArtifactoryAuth();
 
     /**
-     * Model tests for IoArgoprojWorkflowV1alpha1HTTPArtifact
+     * Model tests for IoArgoprojWorkflowV1alpha1ArtifactoryAuth
      */
     @Test
-    public void testIoArgoprojWorkflowV1alpha1HTTPArtifact() {
-        // TODO: test IoArgoprojWorkflowV1alpha1HTTPArtifact
+    public void testIoArgoprojWorkflowV1alpha1ArtifactoryAuth() {
+        // TODO: test IoArgoprojWorkflowV1alpha1ArtifactoryAuth
     }
 
     /**
-     * Test the property 'url'
+     * Test the property 'passwordSecret'
      */
     @Test
-    public void urlTest() {
-        // TODO: test url
+    public void passwordSecretTest() {
+        // TODO: test passwordSecret
+    }
+
+    /**
+     * Test the property 'usernameSecret'
+     */
+    @Test
+    public void usernameSecretTest() {
+        // TODO: test usernameSecret
     }
 
 }

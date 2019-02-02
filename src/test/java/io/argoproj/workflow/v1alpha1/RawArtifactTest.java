@@ -27,49 +27,25 @@ import org.junit.Test;
 
 
 /**
- * Model tests for IoArgoprojWorkflowV1alpha1ValueFrom
+ * Model tests for IoArgoprojWorkflowV1alpha1RawArtifact
  */
-public class IoArgoprojWorkflowV1alpha1ValueFromTest {
-    private final ValueFrom model = new ValueFrom();
+public class RawArtifactTest {
+    private final RawArtifact model = new RawArtifact();
 
     /**
-     * Model tests for IoArgoprojWorkflowV1alpha1ValueFrom
+     * Model tests for IoArgoprojWorkflowV1alpha1RawArtifact
      */
     @Test
-    public void testIoArgoprojWorkflowV1alpha1ValueFrom() {
-        // TODO: test IoArgoprojWorkflowV1alpha1ValueFrom
+    public void testIoArgoprojWorkflowV1alpha1RawArtifact() {
+        // TODO: test IoArgoprojWorkflowV1alpha1RawArtifact
     }
 
     /**
-     * Test the property 'jqFilter'
+     * Test the property 'data'
      */
     @Test
-    public void jqFilterTest() {
-        // TODO: test jqFilter
-    }
-
-    /**
-     * Test the property 'jsonPath'
-     */
-    @Test
-    public void jsonPathTest() {
-        // TODO: test jsonPath
-    }
-
-    /**
-     * Test the property 'parameter'
-     */
-    @Test
-    public void parameterTest() {
-        // TODO: test parameter
-    }
-
-    /**
-     * Test the property 'path'
-     */
-    @Test
-    public void pathTest() {
-        // TODO: test path
+    public void dataTest() {
+        // TODO: test data
     }
 
 }

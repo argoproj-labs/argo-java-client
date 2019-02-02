@@ -18,67 +18,61 @@ import com.google.gson.annotations.JsonAdapter;
 import com.google.gson.annotations.SerializedName;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
-import io.argoproj.workflow.v1alpha1.ValueFrom;
+import io.argoproj.workflow.v1alpha1.Workflow;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 
 
 /**
- * Model tests for IoArgoprojWorkflowV1alpha1Parameter
+ * Model tests for IoArgoprojWorkflowV1alpha1WorkflowList
  */
-public class IoArgoprojWorkflowV1alpha1ParameterTest {
-    private final Parameter model = new Parameter();
+public class WorkflowListTest {
+    private final WorkflowList model = new WorkflowList();
 
     /**
-     * Model tests for IoArgoprojWorkflowV1alpha1Parameter
+     * Model tests for IoArgoprojWorkflowV1alpha1WorkflowList
      */
     @Test
-    public void testIoArgoprojWorkflowV1alpha1Parameter() {
-        // TODO: test IoArgoprojWorkflowV1alpha1Parameter
+    public void testIoArgoprojWorkflowV1alpha1WorkflowList() {
+        // TODO: test IoArgoprojWorkflowV1alpha1WorkflowList
     }
 
     /**
-     * Test the property '_default'
+     * Test the property 'apiVersion'
      */
     @Test
-    public void _defaultTest() {
-        // TODO: test _default
+    public void apiVersionTest() {
+        // TODO: test apiVersion
     }
 
     /**
-     * Test the property 'globalName'
+     * Test the property 'items'
      */
     @Test
-    public void globalNameTest() {
-        // TODO: test globalName
+    public void itemsTest() {
+        // TODO: test items
     }
 
     /**
-     * Test the property 'name'
+     * Test the property 'kind'
      */
     @Test
-    public void nameTest() {
-        // TODO: test name
+    public void kindTest() {
+        // TODO: test kind
     }
 
     /**
-     * Test the property 'value'
+     * Test the property 'metadata'
      */
     @Test
-    public void valueTest() {
-        // TODO: test value
-    }
-
-    /**
-     * Test the property 'valueFrom'
-     */
-    @Test
-    public void valueFromTest() {
-        // TODO: test valueFrom
+    public void metadataTest() {
+        // TODO: test metadata
     }
 
 }

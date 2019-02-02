@@ -18,8 +18,7 @@ import com.google.gson.annotations.JsonAdapter;
 import com.google.gson.annotations.SerializedName;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
-import io.argoproj.workflow.v1alpha1.Artifact;
-import io.argoproj.workflow.v1alpha1.Parameter;
+import io.argoproj.workflow.v1alpha1.DAGTask;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import java.io.IOException;
@@ -31,41 +30,33 @@ import org.junit.Test;
 
 
 /**
- * Model tests for IoArgoprojWorkflowV1alpha1Outputs
+ * Model tests for IoArgoprojWorkflowV1alpha1DAGTemplate
  */
-public class IoArgoprojWorkflowV1alpha1OutputsTest {
-    private final Outputs model = new Outputs();
+public class DAGTemplateTest {
+    private final DAGTemplate model = new DAGTemplate();
 
     /**
-     * Model tests for IoArgoprojWorkflowV1alpha1Outputs
+     * Model tests for IoArgoprojWorkflowV1alpha1DAGTemplate
      */
     @Test
-    public void testIoArgoprojWorkflowV1alpha1Outputs() {
-        // TODO: test IoArgoprojWorkflowV1alpha1Outputs
+    public void testIoArgoprojWorkflowV1alpha1DAGTemplate() {
+        // TODO: test IoArgoprojWorkflowV1alpha1DAGTemplate
     }
 
     /**
-     * Test the property 'artifacts'
+     * Test the property 'target'
      */
     @Test
-    public void artifactsTest() {
-        // TODO: test artifacts
+    public void targetTest() {
+        // TODO: test target
     }
 
     /**
-     * Test the property 'parameters'
+     * Test the property 'tasks'
      */
     @Test
-    public void parametersTest() {
-        // TODO: test parameters
-    }
-
-    /**
-     * Test the property 'result'
-     */
-    @Test
-    public void resultTest() {
-        // TODO: test result
+    public void tasksTest() {
+        // TODO: test tasks
     }
 
 }

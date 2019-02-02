@@ -33,7 +33,7 @@ import org.junit.Test;
 /**
  * Model tests for IoArgoprojWorkflowV1alpha1Inputs
  */
-public class IoArgoprojWorkflowV1alpha1InputsTest {
+public class InputsTest {
     private final Inputs model = new Inputs();
 
     /**

@@ -18,46 +18,26 @@ import com.google.gson.annotations.JsonAdapter;
 import com.google.gson.annotations.SerializedName;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
-import io.argoproj.workflow.v1alpha1.IoK8sApiCoreV1ConfigMapKeySelector;
-import io.argoproj.workflow.v1alpha1.IoK8sApiCoreV1SecretKeySelector;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 
 
 /**
- * Model tests for IoArgoprojWorkflowV1alpha1HDFSConfig
+ * Model tests for IoArgoprojWorkflowV1alpha1HDFSKrbConfig
  */
-public class IoArgoprojWorkflowV1alpha1HDFSConfigTest {
-    private final HDFSConfig model = new HDFSConfig();
+public class HDFSKrbConfigTest {
+    private final HDFSKrbConfig model = new HDFSKrbConfig();
 
     /**
-     * Model tests for IoArgoprojWorkflowV1alpha1HDFSConfig
+     * Model tests for IoArgoprojWorkflowV1alpha1HDFSKrbConfig
      */
     @Test
-    public void testIoArgoprojWorkflowV1alpha1HDFSConfig() {
-        // TODO: test IoArgoprojWorkflowV1alpha1HDFSConfig
-    }
-
-    /**
-     * Test the property 'addresses'
-     */
-    @Test
-    public void addressesTest() {
-        // TODO: test addresses
-    }
-
-    /**
-     * Test the property 'hdfsUser'
-     */
-    @Test
-    public void hdfsUserTest() {
-        // TODO: test hdfsUser
+    public void testIoArgoprojWorkflowV1alpha1HDFSKrbConfig() {
+        // TODO: test IoArgoprojWorkflowV1alpha1HDFSKrbConfig
     }
 
     /**

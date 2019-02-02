@@ -18,51 +18,45 @@ import com.google.gson.annotations.JsonAdapter;
 import com.google.gson.annotations.SerializedName;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
-import io.argoproj.workflow.v1alpha1.IoK8sApiCoreV1SecretKeySelector;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 
 
 /**
- * Model tests for IoArgoprojWorkflowV1alpha1ArtifactoryArtifact
+ * Model tests for IoArgoprojWorkflowV1alpha1Metadata
  */
-public class IoArgoprojWorkflowV1alpha1ArtifactoryArtifactTest {
-    private final ArtifactoryArtifact model = new ArtifactoryArtifact();
+public class MetadataTest {
+    private final Metadata model = new Metadata();
 
     /**
-     * Model tests for IoArgoprojWorkflowV1alpha1ArtifactoryArtifact
+     * Model tests for IoArgoprojWorkflowV1alpha1Metadata
      */
     @Test
-    public void testIoArgoprojWorkflowV1alpha1ArtifactoryArtifact() {
-        // TODO: test IoArgoprojWorkflowV1alpha1ArtifactoryArtifact
+    public void testIoArgoprojWorkflowV1alpha1Metadata() {
+        // TODO: test IoArgoprojWorkflowV1alpha1Metadata
     }
 
     /**
-     * Test the property 'passwordSecret'
+     * Test the property 'annotations'
      */
     @Test
-    public void passwordSecretTest() {
-        // TODO: test passwordSecret
+    public void annotationsTest() {
+        // TODO: test annotations
     }
 
     /**
-     * Test the property 'url'
+     * Test the property 'labels'
      */
     @Test
-    public void urlTest() {
-        // TODO: test url
-    }
-
-    /**
-     * Test the property 'usernameSecret'
-     */
-    @Test
-    public void usernameSecretTest() {
-        // TODO: test usernameSecret
+    public void labelsTest() {
+        // TODO: test labels
     }
 
 }

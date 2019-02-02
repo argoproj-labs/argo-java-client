@@ -18,6 +18,7 @@ import com.google.gson.annotations.JsonAdapter;
 import com.google.gson.annotations.SerializedName;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
+import io.argoproj.workflow.v1alpha1.ValueFrom;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import java.io.IOException;
@@ -27,49 +28,57 @@ import org.junit.Test;
 
 
 /**
- * Model tests for IoArgoprojWorkflowV1alpha1ResourceTemplate
+ * Model tests for IoArgoprojWorkflowV1alpha1Parameter
  */
-public class IoArgoprojWorkflowV1alpha1ResourceTemplateTest {
-    private final ResourceTemplate model = new ResourceTemplate();
+public class ParameterTest {
+    private final Parameter model = new Parameter();
 
     /**
-     * Model tests for IoArgoprojWorkflowV1alpha1ResourceTemplate
+     * Model tests for IoArgoprojWorkflowV1alpha1Parameter
      */
     @Test
-    public void testIoArgoprojWorkflowV1alpha1ResourceTemplate() {
-        // TODO: test IoArgoprojWorkflowV1alpha1ResourceTemplate
+    public void testIoArgoprojWorkflowV1alpha1Parameter() {
+        // TODO: test IoArgoprojWorkflowV1alpha1Parameter
     }
 
     /**
-     * Test the property 'action'
+     * Test the property '_default'
      */
     @Test
-    public void actionTest() {
-        // TODO: test action
+    public void _defaultTest() {
+        // TODO: test _default
     }
 
     /**
-     * Test the property 'failureCondition'
+     * Test the property 'globalName'
      */
     @Test
-    public void failureConditionTest() {
-        // TODO: test failureCondition
+    public void globalNameTest() {
+        // TODO: test globalName
     }
 
     /**
-     * Test the property 'manifest'
+     * Test the property 'name'
      */
     @Test
-    public void manifestTest() {
-        // TODO: test manifest
+    public void nameTest() {
+        // TODO: test name
     }
 
     /**
-     * Test the property 'successCondition'
+     * Test the property 'value'
      */
     @Test
-    public void successConditionTest() {
-        // TODO: test successCondition
+    public void valueTest() {
+        // TODO: test value
+    }
+
+    /**
+     * Test the property 'valueFrom'
+     */
+    @Test
+    public void valueFromTest() {
+        // TODO: test valueFrom
     }
 
 }

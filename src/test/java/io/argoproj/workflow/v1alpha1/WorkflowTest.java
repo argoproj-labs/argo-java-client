@@ -18,7 +18,8 @@ import com.google.gson.annotations.JsonAdapter;
 import com.google.gson.annotations.SerializedName;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
-import io.argoproj.workflow.v1alpha1.IoK8sApiCoreV1SecretKeySelector;
+import io.argoproj.workflow.v1alpha1.WorkflowSpec;
+import io.argoproj.workflow.v1alpha1.Workflow;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import java.io.IOException;
@@ -28,57 +29,57 @@ import org.junit.Test;
 
 
 /**
- * Model tests for IoArgoprojWorkflowV1alpha1GitArtifact
+ * Model tests for IoArgoprojWorkflowV1alpha1Workflow
  */
-public class IoArgoprojWorkflowV1alpha1GitArtifactTest {
-    private final GitArtifact model = new GitArtifact();
+public class WorkflowTest {
+    private final Workflow model = new Workflow();
 
     /**
-     * Model tests for IoArgoprojWorkflowV1alpha1GitArtifact
+     * Model tests for IoArgoprojWorkflowV1alpha1Workflow
      */
     @Test
-    public void testIoArgoprojWorkflowV1alpha1GitArtifact() {
-        // TODO: test IoArgoprojWorkflowV1alpha1GitArtifact
+    public void testIoArgoprojWorkflowV1alpha1Workflow() {
+        // TODO: test IoArgoprojWorkflowV1alpha1Workflow
     }
 
     /**
-     * Test the property 'passwordSecret'
+     * Test the property 'apiVersion'
      */
     @Test
-    public void passwordSecretTest() {
-        // TODO: test passwordSecret
+    public void apiVersionTest() {
+        // TODO: test apiVersion
     }
 
     /**
-     * Test the property 'repo'
+     * Test the property 'kind'
      */
     @Test
-    public void repoTest() {
-        // TODO: test repo
+    public void kindTest() {
+        // TODO: test kind
     }
 
     /**
-     * Test the property 'revision'
+     * Test the property 'metadata'
      */
     @Test
-    public void revisionTest() {
-        // TODO: test revision
+    public void metadataTest() {
+        // TODO: test metadata
     }
 
     /**
-     * Test the property 'sshPrivateKeySecret'
+     * Test the property 'spec'
      */
     @Test
-    public void sshPrivateKeySecretTest() {
-        // TODO: test sshPrivateKeySecret
+    public void specTest() {
+        // TODO: test spec
     }
 
     /**
-     * Test the property 'usernameSecret'
+     * Test the property 'status'
      */
     @Test
-    public void usernameSecretTest() {
-        // TODO: test usernameSecret
+    public void statusTest() {
+        // TODO: test status
     }
 
 }

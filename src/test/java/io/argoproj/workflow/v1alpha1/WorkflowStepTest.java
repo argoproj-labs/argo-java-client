@@ -31,17 +31,17 @@ import org.junit.Test;
 
 
 /**
- * Model tests for IoArgoprojWorkflowV1alpha1DAGTask
+ * Model tests for IoArgoprojWorkflowV1alpha1WorkflowStep
  */
-public class IoArgoprojWorkflowV1alpha1DAGTaskTest {
-    private final DAGTask model = new DAGTask();
+public class WorkflowStepTest {
+    private final WorkflowStep model = new WorkflowStep();
 
     /**
-     * Model tests for IoArgoprojWorkflowV1alpha1DAGTask
+     * Model tests for IoArgoprojWorkflowV1alpha1WorkflowStep
      */
     @Test
-    public void testIoArgoprojWorkflowV1alpha1DAGTask() {
-        // TODO: test IoArgoprojWorkflowV1alpha1DAGTask
+    public void testIoArgoprojWorkflowV1alpha1WorkflowStep() {
+        // TODO: test IoArgoprojWorkflowV1alpha1WorkflowStep
     }
 
     /**
@@ -50,14 +50,6 @@ public class IoArgoprojWorkflowV1alpha1DAGTaskTest {
     @Test
     public void argumentsTest() {
         // TODO: test arguments
-    }
-
-    /**
-     * Test the property 'dependencies'
-     */
-    @Test
-    public void dependenciesTest() {
-        // TODO: test dependencies
     }
 
     /**

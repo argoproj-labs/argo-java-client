@@ -18,15 +18,6 @@ import com.google.gson.annotations.JsonAdapter;
 import com.google.gson.annotations.SerializedName;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
-import io.argoproj.workflow.v1alpha1.IoK8sApiCoreV1ContainerPort;
-import io.argoproj.workflow.v1alpha1.IoK8sApiCoreV1EnvFromSource;
-import io.argoproj.workflow.v1alpha1.IoK8sApiCoreV1EnvVar;
-import io.argoproj.workflow.v1alpha1.IoK8sApiCoreV1Lifecycle;
-import io.argoproj.workflow.v1alpha1.IoK8sApiCoreV1Probe;
-import io.argoproj.workflow.v1alpha1.IoK8sApiCoreV1ResourceRequirements;
-import io.argoproj.workflow.v1alpha1.IoK8sApiCoreV1SecurityContext;
-import io.argoproj.workflow.v1alpha1.IoK8sApiCoreV1VolumeDevice;
-import io.argoproj.workflow.v1alpha1.IoK8sApiCoreV1VolumeMount;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import java.io.IOException;
@@ -38,17 +29,17 @@ import org.junit.Test;
 
 
 /**
- * Model tests for IoArgoprojWorkflowV1alpha1ScriptTemplate
+ * Model tests for IoArgoprojWorkflowV1alpha1Sidecar
  */
-public class IoArgoprojWorkflowV1alpha1ScriptTemplateTest {
-    private final ScriptTemplate model = new ScriptTemplate();
+public class SidecarTest {
+    private final Sidecar model = new Sidecar();
 
     /**
-     * Model tests for IoArgoprojWorkflowV1alpha1ScriptTemplate
+     * Model tests for IoArgoprojWorkflowV1alpha1Sidecar
      */
     @Test
-    public void testIoArgoprojWorkflowV1alpha1ScriptTemplate() {
-        // TODO: test IoArgoprojWorkflowV1alpha1ScriptTemplate
+    public void testIoArgoprojWorkflowV1alpha1Sidecar() {
+        // TODO: test IoArgoprojWorkflowV1alpha1Sidecar
     }
 
     /**
@@ -116,6 +107,14 @@ public class IoArgoprojWorkflowV1alpha1ScriptTemplateTest {
     }
 
     /**
+     * Test the property 'mirrorVolumeMounts'
+     */
+    @Test
+    public void mirrorVolumeMountsTest() {
+        // TODO: test mirrorVolumeMounts
+    }
+
+    /**
      * Test the property 'name'
      */
     @Test
@@ -153,14 +152,6 @@ public class IoArgoprojWorkflowV1alpha1ScriptTemplateTest {
     @Test
     public void securityContextTest() {
         // TODO: test securityContext
-    }
-
-    /**
-     * Test the property 'source'
-     */
-    @Test
-    public void sourceTest() {
-        // TODO: test source
     }
 
     /**

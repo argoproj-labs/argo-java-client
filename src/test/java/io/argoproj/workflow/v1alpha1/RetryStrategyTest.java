@@ -29,7 +29,7 @@ import org.junit.Test;
 /**
  * Model tests for IoArgoprojWorkflowV1alpha1RetryStrategy
  */
-public class IoArgoprojWorkflowV1alpha1RetryStrategyTest {
+public class RetryStrategyTest {
     private final RetryStrategy model = new RetryStrategy();
 
     /**

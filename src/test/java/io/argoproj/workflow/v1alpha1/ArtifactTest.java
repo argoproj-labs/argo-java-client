@@ -18,6 +18,7 @@ import com.google.gson.annotations.JsonAdapter;
 import com.google.gson.annotations.SerializedName;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
+import io.argoproj.workflow.v1alpha1.ArchiveStrategy;
 import io.argoproj.workflow.v1alpha1.ArtifactoryArtifact;
 import io.argoproj.workflow.v1alpha1.GitArtifact;
 import io.argoproj.workflow.v1alpha1.HDFSArtifact;
@@ -33,17 +34,25 @@ import org.junit.Test;
 
 
 /**
- * Model tests for IoArgoprojWorkflowV1alpha1ArtifactLocation
+ * Model tests for IoArgoprojWorkflowV1alpha1Artifact
  */
-public class IoArgoprojWorkflowV1alpha1ArtifactLocationTest {
-    private final ArtifactLocation model = new ArtifactLocation();
+public class ArtifactTest {
+    private final Artifact model = new Artifact();
 
     /**
-     * Model tests for IoArgoprojWorkflowV1alpha1ArtifactLocation
+     * Model tests for IoArgoprojWorkflowV1alpha1Artifact
      */
     @Test
-    public void testIoArgoprojWorkflowV1alpha1ArtifactLocation() {
-        // TODO: test IoArgoprojWorkflowV1alpha1ArtifactLocation
+    public void testIoArgoprojWorkflowV1alpha1Artifact() {
+        // TODO: test IoArgoprojWorkflowV1alpha1Artifact
+    }
+
+    /**
+     * Test the property 'archive'
+     */
+    @Test
+    public void archiveTest() {
+        // TODO: test archive
     }
 
     /**
@@ -63,11 +72,27 @@ public class IoArgoprojWorkflowV1alpha1ArtifactLocationTest {
     }
 
     /**
+     * Test the property 'from'
+     */
+    @Test
+    public void fromTest() {
+        // TODO: test from
+    }
+
+    /**
      * Test the property 'git'
      */
     @Test
     public void gitTest() {
         // TODO: test git
+    }
+
+    /**
+     * Test the property 'globalName'
+     */
+    @Test
+    public void globalNameTest() {
+        // TODO: test globalName
     }
 
     /**
@@ -84,6 +109,30 @@ public class IoArgoprojWorkflowV1alpha1ArtifactLocationTest {
     @Test
     public void httpTest() {
         // TODO: test http
+    }
+
+    /**
+     * Test the property 'mode'
+     */
+    @Test
+    public void modeTest() {
+        // TODO: test mode
+    }
+
+    /**
+     * Test the property 'name'
+     */
+    @Test
+    public void nameTest() {
+        // TODO: test name
+    }
+
+    /**
+     * Test the property 'path'
+     */
+    @Test
+    public void pathTest() {
+        // TODO: test path
     }
 
     /**

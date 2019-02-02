@@ -28,9 +28,6 @@ import io.argoproj.workflow.v1alpha1.RetryStrategy;
 import io.argoproj.workflow.v1alpha1.ScriptTemplate;
 import io.argoproj.workflow.v1alpha1.Sidecar;
 import io.argoproj.workflow.v1alpha1.WorkflowStep;
-import io.argoproj.workflow.v1alpha1.IoK8sApiCoreV1Affinity;
-import io.argoproj.workflow.v1alpha1.IoK8sApiCoreV1Container;
-import io.argoproj.workflow.v1alpha1.IoK8sApiCoreV1Toleration;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import java.io.IOException;
@@ -46,7 +43,7 @@ import org.junit.Test;
 /**
  * Model tests for IoArgoprojWorkflowV1alpha1Template
  */
-public class IoArgoprojWorkflowV1alpha1TemplateTest {
+public class TemplateTest {
     private final Template model = new Template();
 
     /**
