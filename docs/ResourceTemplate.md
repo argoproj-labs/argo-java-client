@@ -1,5 +1,5 @@
 
-# IoArgoprojWorkflowV1alpha1ResourceTemplate
+# ResourceTemplate
 
 ## Properties
 Name | Type | Description | Notes

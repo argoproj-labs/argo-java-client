@@ -1,5 +1,5 @@
 
-# IoArgoprojWorkflowV1alpha1HDFSArtifact
+# HDFSArtifact
 
 ## Properties
 Name | Type | Description | Notes

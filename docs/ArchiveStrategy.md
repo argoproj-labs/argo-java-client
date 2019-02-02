@@ -1,5 +1,5 @@
 
-# IoArgoprojWorkflowV1alpha1ArchiveStrategy
+# ArchiveStrategy
 
 ## Properties
 Name | Type | Description | Notes

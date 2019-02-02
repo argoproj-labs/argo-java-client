@@ -1,5 +1,5 @@
 
-# IoArgoprojWorkflowV1alpha1Sequence
+# Sequence
 
 ## Properties
 Name | Type | Description | Notes

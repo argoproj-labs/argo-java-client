@@ -1,5 +1,5 @@
 
-# IoArgoprojWorkflowV1alpha1RetryStrategy
+# RetryStrategy
 
 ## Properties
 Name | Type | Description | Notes

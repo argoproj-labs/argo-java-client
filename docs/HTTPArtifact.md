@@ -1,10 +1,10 @@
 
-# IoArgoprojWorkflowV1alpha1RawArtifact
+# HTTPArtifact
 
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**data** | **String** | Data is the string contents of the artifact | 
+**url** | **String** | URL of the artifact | 
 
 
 

@@ -1,5 +1,5 @@
 
-# IoArgoprojWorkflowV1alpha1ValueFrom
+# ValueFrom
 
 ## Properties
 Name | Type | Description | Notes

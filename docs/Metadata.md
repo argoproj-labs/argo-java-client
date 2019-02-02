@@ -1,5 +1,5 @@
 
-# IoArgoprojWorkflowV1alpha1Metadata
+# Metadata
 
 ## Properties
 Name | Type | Description | Notes

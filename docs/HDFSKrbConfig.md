@@ -1,5 +1,5 @@
 
-# IoArgoprojWorkflowV1alpha1HDFSKrbConfig
+# HDFSKrbConfig
 
 ## Properties
 Name | Type | Description | Notes
