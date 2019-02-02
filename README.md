@@ -2,15 +2,7 @@
 
 Argo
 - API version: v2.3.0
-  - Build date: 2019-02-02T13:36:12.841+03:30[Asia/Tehran]
-
-## Documentation for API Endpoints
-
-All URIs are relative to *http://localhost*
-
-Class | Method | HTTP request | Description
------------- | ------------- | ------------- | -------------
-
+  - Build date: 2019-02-02T13:36:12.841+03:30
 
 ## Documentation for Models
 
