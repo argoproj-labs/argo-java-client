@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>openapi-java-client</name>
-	<comment>Project argo-openapi-codegen created by Buildship.</comment>
-	<projects>
-	</projects>
+	<name>argo-java-client</name>
+	<comment></comment>
+	<projects/>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.eclipse.buildship.core.gradleprojectnature</nature>
+	</natures>
 	<buildSpec>
 		<buildCommand>
-			<name>org.eclipse.buildship.core.gradleprojectbuilder</name>
-			<arguments>
-			</arguments>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments/>
 		</buildCommand>
 		<buildCommand>
-			<name>org.eclipse.jdt.core.javabuilder</name>
-			<arguments>
-			</arguments>
+			<name>org.eclipse.buildship.core.gradleprojectbuilder</name>
+			<arguments/>
 		</buildCommand>
 	</buildSpec>
-	<natures>
-		<nature>org.eclipse.buildship.core.gradleprojectnature</nature>
-		<nature>org.eclipse.jdt.core.javanature</nature>
-	</natures>
+	<linkedResources/>
+	<filteredResources/>
 </projectDescription>
