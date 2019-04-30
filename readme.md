@@ -7,7 +7,7 @@ Java classes for argo project Based on their openapi json file.
 I'll publish the maven jar artifacts as soon as possible.
 for the time being just clone the project.
 this is an example Usage:
-```
+```java
 	
 	import java.io.IOException;
 	import java.util.ArrayList;
