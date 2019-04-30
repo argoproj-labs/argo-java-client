@@ -73,6 +73,6 @@ this is an example Usage:
 
 ### Installing
 
-just clone the project and do `gradle clean build` and see modify the main. 
+just clone the project and do `gradle clean build` and see and modify the Main.java & Main2.java 
 
 I'll publish to Maven repositories as soon as possible 
