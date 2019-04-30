@@ -1,4 +1,4 @@
-# Argo Project Java Client
+# Argo Project Java Data Model
 
 Java classes for [argo project](https://github.com/argoproj/argo) project Based on their openapi json file.
 
