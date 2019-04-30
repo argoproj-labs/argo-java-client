@@ -2,7 +2,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-import io.argoproj.workflow.v1alpha.Metadata;
 import io.argoproj.workflow.v1alpha.Template;
 import io.argoproj.workflow.v1alpha.Workflow;
 import io.argoproj.workflow.v1alpha.WorkflowSpec;
