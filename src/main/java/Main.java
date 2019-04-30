@@ -12,6 +12,7 @@ public class Main {
 	public static void main(String[] args) throws IOException, ApiException {
 		ApiClient  client = Config.defaultClient();
 		Configuration.setDefaultApiClient(client);
+		System.out.println(client.getBasePath());
 		
 		CoreV1Api api = new CoreV1Api();
 		V1PodList list =

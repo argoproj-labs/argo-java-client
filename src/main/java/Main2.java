@@ -1,3 +1,4 @@
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -5,11 +6,16 @@ import io.argoproj.workflow.v1alpha.Metadata;
 import io.argoproj.workflow.v1alpha.Template;
 import io.argoproj.workflow.v1alpha.Workflow;
 import io.argoproj.workflow.v1alpha.WorkflowSpec;
+import io.kubernetes.client.ApiClient;
+import io.kubernetes.client.ApiException;
+import io.kubernetes.client.Configuration;
+import io.kubernetes.client.apis.CustomObjectsApi;
 import io.kubernetes.client.models.V1Container;
 import io.kubernetes.client.models.V1ObjectMeta;
+import io.kubernetes.client.util.Config;
 
 public class Main2 {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException, ApiException {
 		
 		V1ObjectMeta metadata = new V1ObjectMeta();
 		metadata.generateName("hello-world-");
@@ -36,5 +42,21 @@ public class Main2 {
 				.kind("Workflow")
 				.metadata(metadata)
 				.spec(spec);
+		
+		ApiClient  client = Config.defaultClient();
+		client.setDebugging(true);
+		Configuration.setDefaultApiClient(client);
+
+		// Configure API key authorization: BearerToken
+//		ApiKeyAuth BearerToken = (ApiKeyAuth) defaultClient.getAuthentication("BearerToken");
+//		BearerToken.setApiKey("YOUR API KEY");
+		// Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
+		//BearerToken.setApiKeyPrefix("Token");
+
+		CustomObjectsApi apiInstance = new CustomObjectsApi();
+//	    Object result = apiInstance.createClusterCustomObject("argoproj.io", "v1alpha1", "workflows", wf, "true");
+	    Object result = apiInstance.createNamespacedCustomObject("argoproj.io", "v1alpha1", "default", "workflows", wf, "true");
+	    System.out.println(result);
+		
 	}
 }
