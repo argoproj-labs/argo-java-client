@@ -1,6 +1,6 @@
 # Argo Project Java Client
 
-Java classes for argo project Based on their openapi json file.
+Java classes for [argo project](https://github.com/argoproj/argo) project Based on their openapi json file.
 
 ## Getting Started
 
