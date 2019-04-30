@@ -71,14 +71,6 @@ this is an example Usage:
 	}
 ```
 
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
 ### Installing
 
 just clone the project and do `gradle clean build` and see modify the main. 
