@@ -60,7 +60,7 @@ this is an example Usage:
 			
 			
 			Workflow wf = 
-					new Workflow()
+				new Workflow()
 					.apiVersion("argoproj.io/v1alpha1")
 					.kind("Workflow")
 					.metadata(metadata)
