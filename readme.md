@@ -5,17 +5,17 @@ Java classes for [argo project](https://github.com/argoproj/argo) based on their
 ## Getting Started
 
 First add the corresponding maven or gradle dependency:
-```groovy
-	repositories {
+<pre>
+	<code>repositories {
 	    // Use jcenter for resolving this dependency.
-	    jcenter()
+	    <b>jcenter()</b>
 	}
 
 	dependencies {
-	    compile 'io.unikzforce:argo-java-client:0.1__v2.3.0-rc2'
+	    <b>compile 'io.unikzforce:argo-java-client:0.1__v2.3.0-rc2'</b>
 	    ...
-	}
-```
+	}</code>
+</pre>
 for the time being this artifact is only provided in jcenter.
 
 this is an example Usage:
