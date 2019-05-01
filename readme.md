@@ -4,8 +4,20 @@ Java classes for [argo project](https://github.com/argoproj/argo) based on their
 
 ## Getting Started
 
-I'll publish the maven jar artifacts as soon as possible.
-for the time being just clone the project.
+First add the corresponding maven or gradle dependency:
+```groovy
+	repositories {
+	    // Use jcenter for resolving this dependency.
+	    jcenter()
+	}
+
+	dependencies {
+	    compile 'io.unikzforce:argo-java-client:0.1__v2.3.0-rc2'
+	    ...
+	}
+```
+for the time being this artifact is only provided in jcenter.
+
 this is an example Usage:
 ```java
 	
@@ -70,9 +82,3 @@ this is an example Usage:
 		}
 	}
 ```
-
-### Installing
-
-just clone the project and do `gradle clean build` and see and modify the Main.java & Main2.java 
-
-I'll publish to Maven repositories as soon as possible 
