@@ -1,7 +1,8 @@
 ######################
 # Project Specific
 ######################
-/build/www/**
+/src/main/webapp/content/css/main.css
+/target/classes/static/**
 /src/test/javascript/coverage/
 
 ######################
@@ -50,6 +51,8 @@ local.properties
 # PDT-specific
 .buildpath
 
+# STS-specific
+/.sts4-cache/*
 ######################
 # Intellij
 ######################
@@ -142,4 +145,3 @@ Desktop.ini
 # ESLint
 ######################
 .eslintcache
-/.apt_generated/

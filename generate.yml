@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+   generate-job:
+      image: openapitools/openapi-generator:cli-v4.2.2
+      entrypoint: /bin/bash /scripts/generate-by-docker.sh
+      volumes:
+         - './generate-by-docker.sh:/scripts/generate-by-docker.sh'
+         - './target/argoproj-java-client-openapi-generator-1.0.0.jar:/scripts/argoproj-java-client-openapi-generator.jar'
+         - './generated-code/:/generated-code/'
+         - './src/main/resources/argoproj-java-client-openapi-code/okhttp-gson-kubernetes.build.gradle.mustache:/supportingFiles/okhttp-gson-kubernetes.build.gradle.mustache'
+         
+networks:
+  default:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 170.177.57.0/24
