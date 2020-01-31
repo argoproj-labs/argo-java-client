@@ -6,7 +6,7 @@ Java classes for [argo project](https://github.com/argoproj/argo) based on their
 
 ## Getting Started
 
-First add the corresponding maven or gradle dependency:
+First add the corresponding maven or gradle dependency (will be updated soon)(also from time to time)
 <pre>
 <code>repositories {
     // Use jcenter for resolving this dependency.
