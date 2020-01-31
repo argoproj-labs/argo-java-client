@@ -1,6 +1,16 @@
 # OpenAPI Generator for the [argo-java-client] library
 
-# Argo Project Java Data Model
+### How to regenerate the code
+This project is created to easily generate the [argo-java-client].
+To generate the code you should do the following steps:
+
+  - `mvn package` to compile this project
+  - `docker-compose -f generate.yml up` to generate the argo-java-client in `generated-code` folder.
+
+
+So I'll generate [argo-java-client] by the use of this project. External help in maintaining this code generator and original [argo-java-client] is much appreciated.
+
+### Argo Project Java Data Model
 
 Java classes for [argo project](https://github.com/argoproj/argo) based on their openapi json file.
 
@@ -84,18 +94,5 @@ public class Main2 {
 	}
 }
 ```
-
-
-
-## How to Generate the Code from argoproj openapi spec file
-This project is created to easily generate the [argo-java-client].
-To generate the code you should do the following steps:
-
-  - `mvn package` to compile this project
-  - `docker-compose -f generate.yml up` to generate the argo-java-client in `generated-code` folder.
-
-
-So I'll generate [argo-java-client] by the use of this project. External help in maintaining this code generator and original [argo-java-client] is much appreciated.
-
 
    [argo-java-client]: <https://github.com/argoproj-labs/argo-java-client>
