@@ -32,7 +32,7 @@ import java.util.List;
  * Inputs are the mechanism for passing parameters, artifacts, volumes from one template to another
  */
 @ApiModel(description = "Inputs are the mechanism for passing parameters, artifacts, volumes from one template to another")
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class Inputs {
   public static final String SERIALIZED_NAME_ARTIFACTS = "artifacts";
   @SerializedName(SERIALIZED_NAME_ARTIFACTS)

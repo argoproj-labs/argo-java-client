@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * CronWorkflowSpec
  */
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class CronWorkflowSpec {
   public static final String SERIALIZED_NAME_CONCURRENCY_POLICY = "concurrencyPolicy";
   @SerializedName(SERIALIZED_NAME_CONCURRENCY_POLICY)

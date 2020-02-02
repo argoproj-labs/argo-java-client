@@ -28,7 +28,7 @@ import java.io.IOException;
  * ExecutorConfig holds configurations of an executor container.
  */
 @ApiModel(description = "ExecutorConfig holds configurations of an executor container.")
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class ExecutorConfig {
   public static final String SERIALIZED_NAME_SERVICE_ACCOUNT_NAME = "serviceAccountName";
   @SerializedName(SERIALIZED_NAME_SERVICE_ACCOUNT_NAME)

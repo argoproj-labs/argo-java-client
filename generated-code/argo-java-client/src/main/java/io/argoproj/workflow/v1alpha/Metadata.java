@@ -31,7 +31,7 @@ import java.util.Map;
  * Pod metdata
  */
 @ApiModel(description = "Pod metdata")
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class Metadata {
   public static final String SERIALIZED_NAME_ANNOTATIONS = "annotations";
   @SerializedName(SERIALIZED_NAME_ANNOTATIONS)

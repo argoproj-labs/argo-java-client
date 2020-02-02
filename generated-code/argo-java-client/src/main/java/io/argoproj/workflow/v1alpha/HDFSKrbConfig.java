@@ -30,7 +30,7 @@ import java.io.IOException;
  * HDFSKrbConfig is auth configurations for Kerberos
  */
 @ApiModel(description = "HDFSKrbConfig is auth configurations for Kerberos")
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class HDFSKrbConfig {
   public static final String SERIALIZED_NAME_KRB_C_CACHE_SECRET = "krbCCacheSecret";
   @SerializedName(SERIALIZED_NAME_KRB_C_CACHE_SECRET)

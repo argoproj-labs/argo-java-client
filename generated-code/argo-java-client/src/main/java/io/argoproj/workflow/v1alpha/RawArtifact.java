@@ -28,7 +28,7 @@ import java.io.IOException;
  * RawArtifact allows raw string content to be placed as an artifact in a container
  */
 @ApiModel(description = "RawArtifact allows raw string content to be placed as an artifact in a container")
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class RawArtifact {
   public static final String SERIALIZED_NAME_DATA = "data";
   @SerializedName(SERIALIZED_NAME_DATA)

@@ -29,7 +29,7 @@ import java.io.IOException;
  * S3Artifact is the location of an S3 artifact
  */
 @ApiModel(description = "S3Artifact is the location of an S3 artifact")
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class S3Artifact {
   public static final String SERIALIZED_NAME_ACCESS_KEY_SECRET = "accessKeySecret";
   @SerializedName(SERIALIZED_NAME_ACCESS_KEY_SECRET)

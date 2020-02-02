@@ -29,7 +29,7 @@ import java.io.IOException;
  * Parameter indicate a passed string parameter to a service template with an optional default value
  */
 @ApiModel(description = "Parameter indicate a passed string parameter to a service template with an optional default value")
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class Parameter {
   public static final String SERIALIZED_NAME_DEFAULT = "default";
   @SerializedName(SERIALIZED_NAME_DEFAULT)

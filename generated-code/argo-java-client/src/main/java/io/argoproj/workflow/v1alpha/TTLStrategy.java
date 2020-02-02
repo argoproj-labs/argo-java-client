@@ -28,7 +28,7 @@ import java.io.IOException;
  * TTLStrategy is the strategy for the time to live depending on if the workflow succeded or failed
  */
 @ApiModel(description = "TTLStrategy is the strategy for the time to live depending on if the workflow succeded or failed")
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class TTLStrategy {
   public static final String SERIALIZED_NAME_SECONDS_AFTER_COMPLETION = "secondsAfterCompletion";
   @SerializedName(SERIALIZED_NAME_SECONDS_AFTER_COMPLETION)

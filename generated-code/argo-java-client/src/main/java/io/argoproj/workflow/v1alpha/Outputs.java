@@ -32,7 +32,7 @@ import java.util.List;
  * Outputs hold parameters, artifacts, and results from a step
  */
 @ApiModel(description = "Outputs hold parameters, artifacts, and results from a step")
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class Outputs {
   public static final String SERIALIZED_NAME_ARTIFACTS = "artifacts";
   @SerializedName(SERIALIZED_NAME_ARTIFACTS)

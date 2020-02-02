@@ -32,7 +32,7 @@ import java.util.List;
  * WorkflowTemplateSpec is a spec of WorkflowTemplate.
  */
 @ApiModel(description = "WorkflowTemplateSpec is a spec of WorkflowTemplate.")
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class WorkflowTemplateSpec {
   public static final String SERIALIZED_NAME_ARGUMENTS = "arguments";
   @SerializedName(SERIALIZED_NAME_ARGUMENTS)

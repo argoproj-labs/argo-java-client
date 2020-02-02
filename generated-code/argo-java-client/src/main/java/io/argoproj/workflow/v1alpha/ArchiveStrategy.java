@@ -28,7 +28,7 @@ import java.io.IOException;
  * ArchiveStrategy describes how to archive files/directory when saving artifacts
  */
 @ApiModel(description = "ArchiveStrategy describes how to archive files/directory when saving artifacts")
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class ArchiveStrategy {
   public static final String SERIALIZED_NAME_NONE = "none";
   @SerializedName(SERIALIZED_NAME_NONE)

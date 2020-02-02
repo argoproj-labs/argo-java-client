@@ -28,7 +28,7 @@ import java.io.IOException;
  * SuspendTemplate is a template subtype to suspend a workflow at a predetermined point in time
  */
 @ApiModel(description = "SuspendTemplate is a template subtype to suspend a workflow at a predetermined point in time")
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class SuspendTemplate {
   public static final String SERIALIZED_NAME_DURATION = "duration";
   @SerializedName(SERIALIZED_NAME_DURATION)

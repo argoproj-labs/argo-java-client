@@ -28,7 +28,7 @@ import java.io.IOException;
  * ValueFrom describes a location in which to obtain the value to a parameter
  */
 @ApiModel(description = "ValueFrom describes a location in which to obtain the value to a parameter")
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class ValueFrom {
   public static final String SERIALIZED_NAME_JQ_FILTER = "jqFilter";
   @SerializedName(SERIALIZED_NAME_JQ_FILTER)

@@ -30,7 +30,7 @@ import java.util.List;
 /**
  * ParallelSteps
  */
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class ParallelSteps {
   public static final String SERIALIZED_NAME_STEPS = "Steps";
   @SerializedName(SERIALIZED_NAME_STEPS)

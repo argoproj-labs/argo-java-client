@@ -29,7 +29,7 @@ import java.io.IOException;
  * ArtifactoryAuth describes the secret selectors required for authenticating to artifactory
  */
 @ApiModel(description = "ArtifactoryAuth describes the secret selectors required for authenticating to artifactory")
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class ArtifactoryAuth {
   public static final String SERIALIZED_NAME_PASSWORD_SECRET = "passwordSecret";
   @SerializedName(SERIALIZED_NAME_PASSWORD_SECRET)

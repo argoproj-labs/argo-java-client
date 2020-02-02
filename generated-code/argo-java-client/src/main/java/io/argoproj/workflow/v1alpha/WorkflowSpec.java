@@ -46,7 +46,7 @@ import java.util.Map;
  * WorkflowSpec is the specification of a Workflow.
  */
 @ApiModel(description = "WorkflowSpec is the specification of a Workflow.")
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class WorkflowSpec {
   public static final String SERIALIZED_NAME_ACTIVE_DEADLINE_SECONDS = "activeDeadlineSeconds";
   @SerializedName(SERIALIZED_NAME_ACTIVE_DEADLINE_SECONDS)

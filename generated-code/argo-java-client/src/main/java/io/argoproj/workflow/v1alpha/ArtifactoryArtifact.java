@@ -29,7 +29,7 @@ import java.io.IOException;
  * ArtifactoryArtifact is the location of an artifactory artifact
  */
 @ApiModel(description = "ArtifactoryArtifact is the location of an artifactory artifact")
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class ArtifactoryArtifact {
   public static final String SERIALIZED_NAME_PASSWORD_SECRET = "passwordSecret";
   @SerializedName(SERIALIZED_NAME_PASSWORD_SECRET)

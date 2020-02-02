@@ -34,7 +34,7 @@ import java.util.List;
  * WorkflowStep is a reference to a template to execute in a series of step
  */
 @ApiModel(description = "WorkflowStep is a reference to a template to execute in a series of step")
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class WorkflowStep {
   public static final String SERIALIZED_NAME_ARGUMENTS = "arguments";
   @SerializedName(SERIALIZED_NAME_ARGUMENTS)

@@ -39,7 +39,7 @@ import java.util.List;
  * UserContainer is a container specified by a user.
  */
 @ApiModel(description = "UserContainer is a container specified by a user.")
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class UserContainer {
   public static final String SERIALIZED_NAME_ARGS = "args";
   @SerializedName(SERIALIZED_NAME_ARGS)

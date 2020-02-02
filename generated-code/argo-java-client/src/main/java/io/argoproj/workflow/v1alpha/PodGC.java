@@ -28,7 +28,7 @@ import java.io.IOException;
  * PodGC describes how to delete completed pods as they complete
  */
 @ApiModel(description = "PodGC describes how to delete completed pods as they complete")
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class PodGC {
   public static final String SERIALIZED_NAME_STRATEGY = "strategy";
   @SerializedName(SERIALIZED_NAME_STRATEGY)

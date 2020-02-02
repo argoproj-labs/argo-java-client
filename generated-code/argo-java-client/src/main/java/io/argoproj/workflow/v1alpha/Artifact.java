@@ -35,7 +35,7 @@ import java.io.IOException;
  * Artifact indicates an artifact to place at a specified path
  */
 @ApiModel(description = "Artifact indicates an artifact to place at a specified path")
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class Artifact {
   public static final String SERIALIZED_NAME_ARCHIVE = "archive";
   @SerializedName(SERIALIZED_NAME_ARCHIVE)

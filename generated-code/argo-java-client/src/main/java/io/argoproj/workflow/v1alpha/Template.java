@@ -52,7 +52,7 @@ import java.util.Map;
  * Template is a reusable and composable unit of execution in a workflow
  */
 @ApiModel(description = "Template is a reusable and composable unit of execution in a workflow")
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class Template {
   public static final String SERIALIZED_NAME_ACTIVE_DEADLINE_SECONDS = "activeDeadlineSeconds";
   @SerializedName(SERIALIZED_NAME_ACTIVE_DEADLINE_SECONDS)

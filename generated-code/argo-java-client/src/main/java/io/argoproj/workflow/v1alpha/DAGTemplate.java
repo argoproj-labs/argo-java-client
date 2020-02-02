@@ -31,7 +31,7 @@ import java.util.List;
  * DAGTemplate is a template subtype for directed acyclic graph templates
  */
 @ApiModel(description = "DAGTemplate is a template subtype for directed acyclic graph templates")
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class DAGTemplate {
   public static final String SERIALIZED_NAME_FAIL_FAST = "failFast";
   @SerializedName(SERIALIZED_NAME_FAIL_FAST)

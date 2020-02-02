@@ -31,7 +31,7 @@ import java.io.IOException;
  * Workflow is the definition of a workflow resource
  */
 @ApiModel(description = "Workflow is the definition of a workflow resource")
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class Workflow {
   public static final String SERIALIZED_NAME_API_VERSION = "apiVersion";
   @SerializedName(SERIALIZED_NAME_API_VERSION)

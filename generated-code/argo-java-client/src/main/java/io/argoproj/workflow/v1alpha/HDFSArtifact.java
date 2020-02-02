@@ -32,7 +32,7 @@ import java.util.List;
  * HDFSArtifact is the location of an HDFS artifact
  */
 @ApiModel(description = "HDFSArtifact is the location of an HDFS artifact")
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class HDFSArtifact {
   public static final String SERIALIZED_NAME_ADDRESSES = "addresses";
   @SerializedName(SERIALIZED_NAME_ADDRESSES)

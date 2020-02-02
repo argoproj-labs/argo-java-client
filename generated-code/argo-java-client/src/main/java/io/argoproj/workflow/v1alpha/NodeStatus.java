@@ -34,7 +34,7 @@ import org.joda.time.DateTime;
  * NodeStatus contains status information about an individual node in the workflow
  */
 @ApiModel(description = "NodeStatus contains status information about an individual node in the workflow")
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class NodeStatus {
   public static final String SERIALIZED_NAME_BOUNDARY_I_D = "boundaryID";
   @SerializedName(SERIALIZED_NAME_BOUNDARY_I_D)

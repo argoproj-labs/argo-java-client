@@ -32,7 +32,7 @@ import java.util.List;
  * WorkflowList is list of Workflow resources
  */
 @ApiModel(description = "WorkflowList is list of Workflow resources")
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class WorkflowList {
   public static final String SERIALIZED_NAME_API_VERSION = "apiVersion";
   @SerializedName(SERIALIZED_NAME_API_VERSION)

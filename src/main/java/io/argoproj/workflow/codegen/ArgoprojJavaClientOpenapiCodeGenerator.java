@@ -63,6 +63,8 @@ public class ArgoprojJavaClientOpenapiCodeGenerator extends JavaClientCodegen im
 		importMapping.put("V1Toleration", "io.kubernetes.client.models.V1Toleration");
 		importMapping.put("V1ObjectMeta", "io.kubernetes.client.models.V1ObjectMeta");
 		importMapping.put("V1ListMeta", "io.kubernetes.client.models.V1ListMeta");
+		
+		hideGenerationTimestamp = true;
 
 		modelPackage = "io.argoproj.workflow.v1alpha";
 		dateLibrary = "joda";

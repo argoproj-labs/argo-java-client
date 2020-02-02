@@ -28,7 +28,7 @@ import java.io.IOException;
  * HTTPArtifact allows an file served on HTTP to be placed as an input artifact in a container
  */
 @ApiModel(description = "HTTPArtifact allows an file served on HTTP to be placed as an input artifact in a container")
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class HTTPArtifact {
   public static final String SERIALIZED_NAME_URL = "url";
   @SerializedName(SERIALIZED_NAME_URL)

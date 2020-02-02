@@ -29,7 +29,7 @@ import java.io.IOException;
  * S3Bucket contains the access information required for interfacing with an S3 bucket
  */
 @ApiModel(description = "S3Bucket contains the access information required for interfacing with an S3 bucket")
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class S3Bucket {
   public static final String SERIALIZED_NAME_ACCESS_KEY_SECRET = "accessKeySecret";
   @SerializedName(SERIALIZED_NAME_ACCESS_KEY_SECRET)

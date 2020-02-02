@@ -28,7 +28,7 @@ import java.io.IOException;
  * Sequence expands a workflow step into numeric range
  */
 @ApiModel(description = "Sequence expands a workflow step into numeric range")
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class Sequence {
   public static final String SERIALIZED_NAME_COUNT = "count";
   @SerializedName(SERIALIZED_NAME_COUNT)

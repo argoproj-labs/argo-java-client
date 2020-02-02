@@ -34,7 +34,7 @@ import java.util.List;
  * DAGTask represents a node in the graph during DAG execution
  */
 @ApiModel(description = "DAGTask represents a node in the graph during DAG execution")
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class DAGTask {
   public static final String SERIALIZED_NAME_ARGUMENTS = "arguments";
   @SerializedName(SERIALIZED_NAME_ARGUMENTS)

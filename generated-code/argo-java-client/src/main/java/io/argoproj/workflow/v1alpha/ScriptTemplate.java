@@ -39,7 +39,7 @@ import java.util.List;
  * ScriptTemplate is a template subtype to enable scripting through code steps
  */
 @ApiModel(description = "ScriptTemplate is a template subtype to enable scripting through code steps")
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class ScriptTemplate {
   public static final String SERIALIZED_NAME_ARGS = "args";
   @SerializedName(SERIALIZED_NAME_ARGS)

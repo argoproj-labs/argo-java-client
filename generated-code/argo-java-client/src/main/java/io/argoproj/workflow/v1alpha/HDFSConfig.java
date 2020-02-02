@@ -32,7 +32,7 @@ import java.util.List;
  * HDFSConfig is configurations for HDFS
  */
 @ApiModel(description = "HDFSConfig is configurations for HDFS")
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class HDFSConfig {
   public static final String SERIALIZED_NAME_ADDRESSES = "addresses";
   @SerializedName(SERIALIZED_NAME_ADDRESSES)

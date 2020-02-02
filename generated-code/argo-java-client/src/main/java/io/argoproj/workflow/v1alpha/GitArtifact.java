@@ -31,7 +31,7 @@ import java.util.List;
  * GitArtifact is the location of an git artifact
  */
 @ApiModel(description = "GitArtifact is the location of an git artifact")
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class GitArtifact {
   public static final String SERIALIZED_NAME_DEPTH = "depth";
   @SerializedName(SERIALIZED_NAME_DEPTH)

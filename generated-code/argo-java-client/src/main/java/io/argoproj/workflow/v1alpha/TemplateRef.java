@@ -28,7 +28,7 @@ import java.io.IOException;
  * TemplateRef is a reference of template resource.
  */
 @ApiModel(description = "TemplateRef is a reference of template resource.")
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class TemplateRef {
   public static final String SERIALIZED_NAME_NAME = "name";
   @SerializedName(SERIALIZED_NAME_NAME)

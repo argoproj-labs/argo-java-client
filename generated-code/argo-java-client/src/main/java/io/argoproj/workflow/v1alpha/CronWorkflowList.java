@@ -32,7 +32,7 @@ import java.util.List;
  * CronWorkflowList is list of CronWorkflow resources
  */
 @ApiModel(description = "CronWorkflowList is list of CronWorkflow resources")
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class CronWorkflowList {
   public static final String SERIALIZED_NAME_API_VERSION = "apiVersion";
   @SerializedName(SERIALIZED_NAME_API_VERSION)

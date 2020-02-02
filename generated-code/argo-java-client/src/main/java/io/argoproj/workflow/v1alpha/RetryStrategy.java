@@ -29,7 +29,7 @@ import java.io.IOException;
  * RetryStrategy provides controls on how to retry a workflow step
  */
 @ApiModel(description = "RetryStrategy provides controls on how to retry a workflow step")
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class RetryStrategy {
   public static final String SERIALIZED_NAME_BACKOFF = "backoff";
   @SerializedName(SERIALIZED_NAME_BACKOFF)

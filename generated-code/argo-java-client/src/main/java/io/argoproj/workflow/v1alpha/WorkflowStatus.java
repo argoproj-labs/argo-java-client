@@ -37,7 +37,7 @@ import org.joda.time.DateTime;
  * WorkflowStatus contains overall status information about a workflow
  */
 @ApiModel(description = "WorkflowStatus contains overall status information about a workflow")
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class WorkflowStatus {
   public static final String SERIALIZED_NAME_COMPRESSED_NODES = "compressedNodes";
   @SerializedName(SERIALIZED_NAME_COMPRESSED_NODES)

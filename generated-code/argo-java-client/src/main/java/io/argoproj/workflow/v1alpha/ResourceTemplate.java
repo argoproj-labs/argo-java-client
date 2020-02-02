@@ -28,7 +28,7 @@ import java.io.IOException;
  * ResourceTemplate is a template subtype to manipulate kubernetes resources
  */
 @ApiModel(description = "ResourceTemplate is a template subtype to manipulate kubernetes resources")
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class ResourceTemplate {
   public static final String SERIALIZED_NAME_ACTION = "action";
   @SerializedName(SERIALIZED_NAME_ACTION)

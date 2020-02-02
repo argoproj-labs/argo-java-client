@@ -30,7 +30,7 @@ import java.io.IOException;
  * WorkflowTemplate is the definition of a workflow template resource
  */
 @ApiModel(description = "WorkflowTemplate is the definition of a workflow template resource")
-@javax.annotation.Generated(value = "io.argoproj.workflow.codegen.ArgoprojJavaClientOpenapiCodeGenerator", date = "2020-01-30T23:33:15.337Z[GMT]")
+
 public class WorkflowTemplate {
   public static final String SERIALIZED_NAME_API_VERSION = "apiVersion";
   @SerializedName(SERIALIZED_NAME_API_VERSION)
