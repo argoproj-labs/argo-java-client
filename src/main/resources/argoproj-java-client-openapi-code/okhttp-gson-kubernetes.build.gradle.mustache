@@ -1,12 +1,3 @@
-apply plugin: 'idea'
-apply plugin: 'eclipse'
-{{#sourceFolder}}
-apply plugin: 'java'
-{{/sourceFolder}}
-
-group = 'io.argoproj'
-version = '{{artifactVersion}}'
-
 buildscript {
     repositories {
         maven { url "https://repo1.maven.org/maven2" }
@@ -19,8 +10,15 @@ buildscript {
 }
 
 plugins {
-    id("maven-publish")
+	id "idea"
+	id "eclipse"
+	id "java"
+	id "maven-publish"
+
 }
+
+group = 'io.argoproj'
+version = '{{artifactVersion}}'
 
 publishing {
     repositories {
@@ -39,7 +37,6 @@ publishing {
         }
     }
 }
-
 
 repositories {
     jcenter()
@@ -138,7 +135,7 @@ if(hasProperty('target') && target == 'android') {
 
     install {
         repositories.mavenInstaller {
-            pom.artifactId = '{{artifactId}}'
+            pom.artifactId = 'argo-java-client'
         }
     }
 
