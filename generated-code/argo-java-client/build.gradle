@@ -5,6 +5,17 @@ apply plugin: 'java'
 group = 'io.argoproj'
 version = 'v2.5.0'
 
+buildscript {
+    repositories {
+        maven { url "https://repo1.maven.org/maven2" }
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.+'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
+    }
+}
+
 plugins {
     id("maven-publish")
 }
@@ -27,16 +38,6 @@ publishing {
     }
 }
 
-buildscript {
-    repositories {
-        maven { url "https://repo1.maven.org/maven2" }
-        jcenter()
-    }
-    dependencies {
-        classpath 'com.android.tools.build:gradle:2.3.+'
-        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
-    }
-}
 
 repositories {
     jcenter()
