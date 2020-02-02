@@ -83,6 +83,13 @@ public class ArgoprojJavaClientOpenapiCodeGenerator extends JavaClientCodegen im
 				"build.gradle"
 			)
 		);
+		
+		supportingFiles.add(new SupportingFile(
+				"my.settings.gradle.mustache", // the input template or file
+				"", // the destination folder, relative `outputFolder`
+				"settings.gradle"
+			)
+		);
     }
 
 

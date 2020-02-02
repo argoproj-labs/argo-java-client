@@ -8,7 +8,7 @@ services:
          - './generate-by-docker.sh:/scripts/generate-by-docker.sh'
          - './target/argoproj-java-client-openapi-generator-1.0.0.jar:/scripts/argoproj-java-client-openapi-generator.jar'
          - './generated-code/:/generated-code/'
-         - './src/main/resources/argoproj-java-client-openapi-code/okhttp-gson-kubernetes.build.gradle.mustache:/supportingFiles/okhttp-gson-kubernetes.build.gradle.mustache'
+         - './src/main/resources/argoproj-java-client-openapi-code/:/supportingFiles/'
          
 networks:
   default:
