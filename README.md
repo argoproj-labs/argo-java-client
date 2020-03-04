@@ -1,3 +1,6 @@
+This project is no longer actively developed due to the integration into the official codes.
+now the argoproj has an Official Java SDK.
+
 # OpenAPI Generator for the [argo-java-client] library
 
 ### How to regenerate the code
